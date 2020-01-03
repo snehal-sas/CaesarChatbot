@@ -1,0 +1,84 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name","who are you"],
+         "responses": ["You can call me Snail- the Julius Caesar Q&A chatbot.", "I'm Snail! The Julius Caesar Q&A chatbot."],
+         "context_set": ""
+        },
+        {"tag": "answer",
+        "patterns": ["What is the answer to life"],
+        "responses": ["42 ;P"],
+        "context_set": ""
+        },
+        {"tag": "born",
+         "patterns": ["When was Julius Caesar born", "when was he born", "which year was Caesar born in", "born","How long did he live","how long did julius caesar live","how old was he when he died","how old was Julius Caesar when he died."],
+         "responses": ["He was born on the 12th of July 100 BC and lived for 55 years."],
+         "context_set": ""
+        },
+        {"tag": "kill",
+        "patterns": ["Who killed Julius Caesar", "kill", "how did he die", "how did Julius Caesar die","Who killed him","When did he die","When did Julius Caesar die","When did caesar die","where did he die","Where did Julius caesar die"],
+        "responses": ["The assassination of Julius Caesar was a conspiracy of several Roman senators, notably led by Marcus Junius Brutus. \nThey stabbed Caesar to death in the Theatre of Pompey on the Ides of March (15 March) 44 BC."],
+        "context_set": ""
+        },
+        {"tag": "Identity",
+        "patterns": ["Who was he", "Who was Julius Caesar", "Who is Julius Caesar", "Who is he","who was julius","tell me about him","Tell me about julis caesar"],
+        "responses": ["Gaius Julius Caesar was a populist Roman dictator, politician, and military general who played a critical role in the events that led to the demise of the Roman Republic and the rise of the Roman Empire."],
+        "context_set": ""
+        },
+        {"tag": "marry",
+        "patterns": ["Who did Julius Caesar marry","Who did he marry","marry","Who married him","Who married Julius Caesar","wife","who was his wife"],
+        "responses": ["Caesar had three legitimate wives: Cornelia, Pompeia, and Calpurnia. He also had multiple affairs most notably with Cleopatra."],
+        "context_set": ""
+        },
+        {"tag": "heir",
+        "patterns": ["Who succeeded Julius Caesar","Who took over after him","Who is Julius Caesar's heir","succeed","heir", "who came after him"],
+        "responses": ["Gaius Octavius, also known as Augustus, succeeded Caeasar. He was dictator from 27 BC - 14 AD (41 years)."],
+        "context_set": ""
+        },
+        {"tag": "kids",
+        "patterns": ["Did he have kids","Did julius caesar have kids","did julius caesar have a son","did he have a son","how many kids did he have","how many kids did Julius Caesar have"],
+        "responses": ["He had two sons and one daughter: Augustus (adopted), Caesarion, and Julia Caesaris. "],
+        "context_set": ""
+        },
+        {"tag": "Longevity",
+        "patterns": ["How long did he rule","How long did Julius Caesar rule","how long was he dictator","how long did he rule Rome","how many years did he rule Rome","For how many rules did he rule Rome","When did he rule","When did Julius Caesar rule","How long was he dictator","How long did he rule for","how long was he ruler"],
+        "responses": ["He held political offices from 59 BC - 44 BC (15 years), but was dictator from 49 BC- 44 BC (5 years)."],
+        "context_set": ""
+        },
+        {"tag": "place",
+        "patterns": ["Where did he rule","Where","Where was he born","Where did Julius Caesar live","Where did Julius rule","Where did Julius Caesar rule","Where was he from","Where was Julius Caesar from"],
+        "responses": ["Good ol place known as Rome"],
+        "context_set": ""
+        },
+        {"tag": "kind",
+        "patterns": ["Was he a good ruler","Was Caesar a good king","Was Julius Caesar a good ruler","Was a good dictator"],
+        "responses": ["That's a very broad question, so no clear cut answer for that."],
+        "context_set": ""
+        },
+        {"tag": "dictator",
+        "patterns": ["Was Julius Caesar a dictator","Was he a dictator","What kind of politician was he","Was caesar a dictator"],
+        "responses": ["Yes, he was a dictator from 49 BC - 44 BC (5 years)."],
+        "context_set": ""
+        },
+        {"tag": "purpose",
+        "patterns": ["What can you do","What can you do for me","What can I ask you","how can you help me","can you help me"],
+        "responses": ["I can answer any questions you have about Julius Caesar."],
+        "context_set": ""
+        },
+        {"tag": "gg",
+        "patterns": ["Good Job","Wow thank you","thak you","great job","great job snail"],
+        "responses": ["Thank you! :)"],
+        "context_set": ""
+        }
+        
+   ]
+}
